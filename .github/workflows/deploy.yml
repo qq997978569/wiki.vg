@@ -22,4 +22,4 @@ jobs:
         with:
           branch: 'master'
           git_remote_url: 'ssh://dokku@montreal.tkte.ch:22/wiki'
-          ssh_private_key: $${{ secrets.SSH_PRIVATE_KEY }}
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
